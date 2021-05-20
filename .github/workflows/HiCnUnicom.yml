@@ -25,7 +25,7 @@ jobs:
             appid: ${{ secrets.APPID }}
           run: |
             # 判断是否有设置appid，没有则使用默认配置
-            if test -z "$appid"; then   appid="247b001385de5cc6ce11731ba1b15835313d489d604e58280e455a6c91e5058651acfb0f0b77029c2372659c319e02645b54c0acc367e692ab24a546b83c302d"; fi
+            if test -z "$appid"; then   appid="1f7af72ad6912d306b5053abf90c7ebbc962d8328a1ea977d39c99f80972c4d818a31da7ddf241b13673251b2ea4dc6addf80ef43874d5559ba168303cb5c957"; fi
             
             for u in $user
             do
